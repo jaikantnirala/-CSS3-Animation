@@ -1,0 +1,1425 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <title>Chetu India | CSS3 Hover Effects</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animation-style.css" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" charset="utf-8" />
+  </head>
+  <body>
+
+    <!-- Page Loader -->
+    <div class="page-loader"><span class="load-icon"></span></div>
+
+    <!-- Slide Menu -->
+    <section class="slide-menu">
+      <span class="menu-title">Menu<span class="separator"></span></span>
+  		<ul>
+  			<li><a href="css3Animation.html#trans-effect"><i class="fa fa-dot-circle-o"></i> 01 Trans Effect</a></li>
+  			<li><a href="css3Animation.html#fade-in-effect"><i class="fa fa-dot-circle-o"></i> 02 Fade In Effect</a></li>
+  			<li><a href="css3Animation.html#over-trans-effect"><i class="fa fa-dot-circle-o"></i> 03 Over Trans Effect</a></li>
+  			<li><a href="css3Animation.html#zoom-out-effect"><i class="fa fa-dot-circle-o"></i> 04 Zoom Out Effect</a></li>
+  			<li><a href="css3Animation.html#flip-effect"><i class="fa fa-dot-circle-o"></i> 05 Flip Effect</a></li>
+  			<li><a href="css3Animation-set-2.html#bubble-effect"><i class="fa fa-dot-circle-o"></i> 06 Bubble Effect</a></li>
+  			<li><a href="css3Animation-set-2.html#zoom-in-effect"><i class="fa fa-dot-circle-o"></i> 07 Zoom In Effect</a></li>
+  			<li><a href="css3Animation-set-2.html#square-spin-effect"><i class="fa fa-dot-circle-o"></i> 08 Square Spin Effect</a></li>
+  			<li><a href="css3Animation-set-2.html#over-flip-effect"><i class="fa fa-dot-circle-o"></i> 09 Over Flip Effect</a></li>
+  			<li><a href="css3Animation-set-2.html#rotate-switch-effect"><i class="fa fa-dot-circle-o"></i> 10 Rotate Switch Effect</a></li>
+  			<li><a href="css3Animation-set-3.html#grid-reveal-effect"><i class="fa fa-dot-circle-o"></i> 11 Grid Reveal Effect</a></li>
+  			<li><a href="css3Animation-set-3.html#swipe-effect"><i class="fa fa-dot-circle-o"></i> 12 Swipe Effect</a></li>
+  			<li><a href="css3Animation-set-3.html#flip-back-effect"><i class="fa fa-dot-circle-o"></i> 13 Flip Back Effect</a></li>
+  			<li><a href="css3Animation-set-3.html#switch-3d-effect"><i class="fa fa-dot-circle-o"></i> 14 Switch 3D Effect</a></li>
+  			<li><a href="css3Animation-set-3.html#flip-forward-effect"><i class="fa fa-dot-circle-o"></i> 15 Flip Forward Effect</a></li>
+        <li><a href="#slow-zoom-effect"><i class="fa fa-dot-circle-o"></i> 16 Slow Zoom Effect</a></li>
+        <li><a href="#tada-effect" class="new"><i class="fa fa-dot-circle-o"></i> 17 TaDa Effect</a></li>
+        <li><a href="#flip-in-x-effect" class="new"><i class="fa fa-dot-circle-o"></i> 18 Flip In X Effect</a></li>
+        <li><a href="#jello-effect" class="new"><i class="fa fa-dot-circle-o"></i> 19 Jello Effect</a></li>
+        <li><a href="#wobble-effect" class="new"><i class="fa fa-dot-circle-o"></i> 20 Wobble Effect</a></li>
+        <li><a href="#bounce-in-effect" class="new"><i class="fa fa-dot-circle-o"></i> 21 Bounce In Effect</a></li>
+  		</ul>
+    </section>
+
+    <!-- Toggle Menu Button -->
+    <span class="toggle-menu-btn"><span></span></span>    
+
+    <!-- Site Content -->
+    <main class="site-content clearfix" id="content" >        
+
+        <!-- Section Effects Strucure -->
+        <section class="effects-structure section-content" data-scrollax-parent="true">         
+
+          <div class="effects-wrap">
+            <div class="container-effects clearfix" data-scrollax="properties: { opacity: '1.3' }">
+              <div class="layer layer-1" data-scrollax="properties: { translateY: '40%' }">
+                <img src="images/01.png" alt="Chetu India Effects" />
+              </div>
+              <div class="layer layer-2" data-scrollax="properties: { translateY: '55%' }">
+                <img src="images/02.png" alt="Chetu India Effects" />
+              </div>
+              <div class="layer layer-3" data-scrollax="properties: { translateY: '70%' }">
+                <img src="images/03.png" alt="Chetu India Effects" />
+              </div>
+              <div class="layer layer-4" data-scrollax="properties: { translateY: '85%'  }">
+                <img src="images/04.png" alt="Chetu India Effects" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pagination -->
+        <section class="pagination" id="set-4" >
+          <div class="row page-items">
+            <a href="css3Animation.html#set-1">Set 1</a>
+            <a href="css3Animation-set-2.html#set-2">Set 2</a>
+            <a href="css3Animation-set-3.html#set-3">Set 3</a>
+            <a href="#set-4" class="current" >Set 4</a>
+          </div>
+        </section>
+
+        <!-- Effect 16 - Slow Zoom Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="slow-zoom-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- Slow Zoom Effect -</h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="slow-zoom-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Effect 17 - TaDa Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="tada-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- TaDa Effect -<i class="new-item fa fa-tag fa-2x"><p>new</p></i></h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="tada-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="tada-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="tada-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Effect 18 - Flip In X Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="flip-in-x-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- Flip In X Effect -<i class="new-item fa fa-tag fa-2x"><p>new</p></i></h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="flip-in-x-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Effect 19 - Jello Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="jello-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- Jello Effect -<i class="new-item fa fa-tag fa-2x"><p>new</p></i></h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="jello-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="jello-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="jello-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Effect 20 - Wobble Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="wobble-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- Wobble Effect -<i class="new-item fa fa-tag fa-2x"><p>new</p></i></h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="wobble-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="wobble-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-4.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-3.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-2.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="wobble-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-des-1.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Effect 21 - Bounce In Effect -->
+        <section class="row text-center section-effects-wrap section-content" id="bounce-in-effect" >
+
+          <div class="site-container">
+
+            <header class="section-header">
+              <h2 class="text-bold">- Bounce In Effect -<i class="new-item bonus fa fa-tag fa-2x"><p>Bonus!</p></i></h2>
+              <hr>
+              <!-- <h4 class=""><code>4 Directions</code></h4> -->
+            </header>
+
+            <span class="separator">
+              <h3>Square Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="separator">
+              <h3>Round Box</h3>
+              <hr class="short">
+            </span>
+
+            <div class="row">
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect round top">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-8.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect round left">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-7.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect round bottom">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-6.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xm-3">
+                <div class="bounce-in-effect effect round right">
+                  <div class="effect-wrapper">
+                    <div class="img-box">
+                      <img src="images/img-5.jpg" alt="Image Effect">
+                    </div>
+                    <div class="info-box">
+                      <div class="info-content">
+                        <h3>Lara Smith</h3>
+                        <hr>
+                        <p>Our fully customizable software solutions require no licensing fees at project completion. Under our agreement,</p>
+                        <hr>
+                        <div class="social-media">
+                          <a href="" target="_blank"><i class="fa fa-facebook fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-youtube fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-twitter fa-lg margin-right-5px"></i></a>
+                          <a href="" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>        
+
+        <!-- Browsers Compatibility -->
+    		<section class="text-center browsers-compatibility clearfix row">
+
+          <header class="section-header">
+            <h2 class="text-bold">- Browsers Compatibility -</h2>
+            <hr>
+            <!-- <h4 class=""><code>4 Directions</code></h4> -->
+          </header>
+
+    			<div class="row">
+    				<div class="icon-web">
+    					<i class="fa fa-3x fa-chrome"></i>
+    					<span class="z-index-2">Google Chrome</span>
+    				</div>
+    				<div class="icon-web">
+    					<i class="fa fa-3x fa-firefox"></i>
+    					<span class="z-index-2">Mozilla Firefox</span>
+    				</div>
+            <div class="icon-web">
+    					<i class="fa fa-3x fa-safari"></i>
+    					<span class="z-index-2">Apple Safari</span>
+    				</div>
+            <div class="icon-web">
+    					<i class="fa fa-3x fa-edge"></i>
+    					<span class="z-index-2">Microsoft Edge</span>
+    				</div>
+    				<div class="icon-web">
+    					<i class="fa fa-3x fa-internet-explorer"></i>
+    					<span class="z-index-2">Internet Explorer</span>
+    				</div>
+    				<div class="icon-web">
+    					<i class="fa fa-3x fa-opera"></i>
+    					<span class="z-index-2">Opera</span>
+    				</div>
+    				<div class="icon-web">
+    					<i class="fa fa-3x fa-windows"></i>
+    					<span class="z-index-2">Windows Tablets</span>
+    				</div>
+    			</div>
+
+    			<div class="row text-center browsers-info">
+    				<p>+ All Standard Browsers!</p>
+    			</div>
+
+    		</section>      
+
+    </main>    
+
+    <!-- Go To Top Button -->
+    <a href="#top" class="go-to-top-button"><i class="fa fa-angle-up"></i></a>   
+
+  </body>
+
+<!-- Scripts Importing -->
+<script src="js/jquery-2.2.0.min.js" charset="utf-8"></script>
+<!-- <script src="js/smoothscroll.min.js" charset="utf-8"></script> -->
+<script src="js/scrollax.min.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
+
+</html>
